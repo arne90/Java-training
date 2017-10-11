@@ -1,16 +1,22 @@
 package com.arne;
 
 
+import java.util.ArrayList;
+
 public class Student {
 
     private String name;
     private String SSN;
+
+    // I'm adding code to my project
 
 
     // Encapsulated variables:
     private String phone;
     private String city;
     private String state;
+
+    private ArrayList[] courses;
 
     private int accountBalance;
 
@@ -40,6 +46,10 @@ public class Student {
         } else {
             System.out.println(amount + " is an invalid deposit.");
         }
+    }
+
+    public void addCourse (String courseName){
+
     }
 
     public void enroll() {
